@@ -155,3 +155,186 @@ a:hover{
     color:#6b7280;
     line-height:1.6;
 }
+
+ /* Pricing Section */
+
+
+.pricing{
+    padding:100px 8%;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:52px;
+    font-weight:700;
+    color:#0D1B2A;
+}
+
+.subtitle{
+    text-align:center;
+    color:#575757;
+    margin-top:12px;
+    margin-bottom:60px;
+    font-size:20px;
+}
+
+
+
+.pricing-container{
+
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+    align-items: center;
+
+}
+
+.price-card{
+
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:15px;
+    padding:30px;
+    transition:.3s;
+    display:flex;
+    flex-direction:column;
+
+}
+.price-card ul{
+    list-style: disc;
+    padding-left: 22px;
+    margin: 25px 0;
+    display: inline-block;
+}
+
+.price-card ul li{
+    margin-bottom: 15px;
+    color: #4b5563;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.price-card:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 20px 35px rgba(0,0,0,.08);
+
+}
+
+
+
+.featured{
+
+    background:#0f172a;
+    color:white;
+
+}
+
+.featured .person,
+.featured ul li,
+.featured .plan{
+
+    color:#d1d5db;
+
+}
+
+
+
+.featured hr{
+
+    border-color:#334155;
+
+}
+
+
+
+.plan{
+
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+    color:#6b7280;
+
+}
+
+
+
+.price-card h1{
+
+    font-size:56px;
+    margin:10px 0;
+
+}
+
+.person{
+
+    color:#6b7280;
+    margin-bottom:25px;
+
+}
+
+hr{
+
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin-bottom:25px;
+
+}
+
+
+
+.price-card ul{
+
+    list-style:disc;
+    padding-left:20px;
+    flex:1;
+
+}
+
+.price-card li{
+
+    margin-bottom:14px;
+    color:#575757;
+    line-height:1.6;
+
+}
+
+
+.price-card button{
+
+    width:100%;
+    padding:15px;
+    border-radius:8px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.price-card button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+.price-card:not(.featured) button{
+
+    background:white;
+    color:#2563eb;
+    border:2px solid #2563eb;
+
+}
+
+.price-card:not(.featured) button:hover{
+
+    background:#2563eb;
+    color:white;
+
+}
+
