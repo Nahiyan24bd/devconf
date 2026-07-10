@@ -15,7 +15,7 @@ nav{
 ul{
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 30px;
     font-size: 20px;
 }
 
@@ -24,11 +24,11 @@ a{
     color: #575757;
 }
 a:hover{
-    /* background-color: #1D4ED8;
+    background-color: #6282d8;
     color: #fff;
-    padding: 8px 15px;
-    border-radius: 15px; */
-    transform: scale(1.05);
+    padding: 5px 8px;
+    border-radius: 8px;
+   
 }
 
 .button-primary{
@@ -166,7 +166,6 @@ a:hover{
 .pricing h2{
     text-align:center;
     font-size:52px;
-    font-weight:700;
     color:#0D1B2A;
 }
 
@@ -401,6 +400,7 @@ hr{
 .event p{
 
     margin-top:8px;
+    color: #0f172a;
 }
 
 /* sponsors section */
@@ -416,6 +416,7 @@ hr{
     text-align:center;
     font-size:48px;
     margin-bottom:60px;
+    color: #0f172a;
 
 }
 
@@ -430,10 +431,10 @@ hr{
 .sponsor{
 
     background:#f3f4f6;
-    padding:45px;
+    color: #0f172a;
+    padding:35px;
     text-align:center;
-    font-size:28px;
-    font-weight:700;
+    font-size:45px;
     border-radius:12px;
     transition:.3s;
 
@@ -457,7 +458,7 @@ hr{
 .faq h2{
 
     text-align:center;
-    font-size:48px;
+    font-size:50px;
     margin-bottom:60px;
 
 }
@@ -481,7 +482,7 @@ hr{
 
 .faq-item p{
 
-    color:#555;
+    color:#0f172a;
 
 }
 
