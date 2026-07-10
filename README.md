@@ -1,8 +1,8 @@
-# DEVCONF 
+DEVCONF 
 
 A modern conference landing page built using HTML and CSS.
 
-## Features
+Features
 
 - Responsive Navbar
 - Hero Section
@@ -10,6 +10,6 @@ A modern conference landing page built using HTML and CSS.
 - CSS Grid
 - Flexbox
 
-## Live Demo
+Live Demo
 
 https://nahiyan24bd.github.io/devconf/
