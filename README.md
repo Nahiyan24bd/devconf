@@ -7,6 +7,9 @@ Features
 - Responsive Navbar
 - Hero Section
 - Speaker Section
+- Schedule Section
+- Sponsors Section
+- FA Questions Section
 - CSS Grid
 - Flexbox
 
